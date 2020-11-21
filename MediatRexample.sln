@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatRexample", "MediatRexample\MediatRexample.csproj", "{520626E3-E5B3-46F2-8D8B-0CFD81D49B51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediatRexample.Api", "MediatRexample\MediatRexample.Api.csproj", "{520626E3-E5B3-46F2-8D8B-0CFD81D49B51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperHeroConnection", "HeroConnection\SuperHeroConnection.csproj", "{F6AF90EB-49C2-45FE-80DC-6688C2A01CF7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{520626E3-E5B3-46F2-8D8B-0CFD81D49B51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{520626E3-E5B3-46F2-8D8B-0CFD81D49B51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{520626E3-E5B3-46F2-8D8B-0CFD81D49B51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6AF90EB-49C2-45FE-80DC-6688C2A01CF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6AF90EB-49C2-45FE-80DC-6688C2A01CF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6AF90EB-49C2-45FE-80DC-6688C2A01CF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6AF90EB-49C2-45FE-80DC-6688C2A01CF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

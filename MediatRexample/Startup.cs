@@ -9,6 +9,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using SuperHeroConnection.JsonResponses;
+using SuperHeroConnection.Requests;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -32,6 +34,9 @@ namespace MediatRexample
 
             services.AddMediatR(typeof(Startup));
             services.AddDbContext<ContractContext>(options => options.UseInMemoryDatabase("database"));
+
+            //registrando contract Handler para Mediator
+            services.AddScoped<IRequestHandler<HeroById, HeroStats>, HeroById.ContractHandler>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
